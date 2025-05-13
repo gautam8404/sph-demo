@@ -12,7 +12,7 @@ struct MainState {
 
 impl MainState {
     fn new() -> GameResult<MainState> {
-        let sim = sph::Fluid::new(1000);
+        let sim = sph::Fluid::new(500);
         Ok(MainState { sim })
     }
 }
