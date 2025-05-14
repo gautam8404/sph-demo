@@ -36,7 +36,7 @@ impl event::EventHandler<ggez::GameError> for MainState {
                 ctx,
                 graphics::DrawMode::fill(),
                 *i,
-                5.0,
+                2.5,
                 0.1,
                 Color::from_rgb(0, 0, 255),
             )?;

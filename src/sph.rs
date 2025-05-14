@@ -4,7 +4,7 @@ use rayon::prelude::*;
 
 const TIME_STEP: f32 = 0.0005;
 // SMOOTHING RADIUS
-const SR: f32 = 16.0;
+const SR: f32 = 30.0;
 const SR_2: f32 = SR * SR;
 const LIQUID_DENSITY: f32 = 300.0; // kg/m^3
 const GAS_CONSTANT: f32 = 2000.0;
